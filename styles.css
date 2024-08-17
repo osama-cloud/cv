@@ -11,7 +11,6 @@ body {
     margin: 0;
 }
 
-
 .cv-container {
     background-color: #fff;
     padding: 20px;
@@ -53,4 +52,14 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+
+@media screen and (min-width: 768px) {
+    .cv-container {
+        width: 60%;
+    }
+    .navbar {
+        width: 35%;
+        max-width: 25rem;
+    }
 }
